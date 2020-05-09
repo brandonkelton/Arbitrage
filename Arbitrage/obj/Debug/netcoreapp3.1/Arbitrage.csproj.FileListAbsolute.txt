@@ -1,0 +1,14 @@
+D:\CS4050\Arbitrage\Arbitrage\bin\Debug\netcoreapp3.1\Arbitrage.exe
+D:\CS4050\Arbitrage\Arbitrage\bin\Debug\netcoreapp3.1\Data.txt
+D:\CS4050\Arbitrage\Arbitrage\bin\Debug\netcoreapp3.1\Arbitrage.deps.json
+D:\CS4050\Arbitrage\Arbitrage\bin\Debug\netcoreapp3.1\Arbitrage.runtimeconfig.json
+D:\CS4050\Arbitrage\Arbitrage\bin\Debug\netcoreapp3.1\Arbitrage.runtimeconfig.dev.json
+D:\CS4050\Arbitrage\Arbitrage\bin\Debug\netcoreapp3.1\Arbitrage.dll
+D:\CS4050\Arbitrage\Arbitrage\bin\Debug\netcoreapp3.1\Arbitrage.pdb
+D:\CS4050\Arbitrage\Arbitrage\obj\Debug\netcoreapp3.1\Arbitrage.csprojAssemblyReference.cache
+D:\CS4050\Arbitrage\Arbitrage\obj\Debug\netcoreapp3.1\Arbitrage.csproj.CoreCompileInputs.cache
+D:\CS4050\Arbitrage\Arbitrage\obj\Debug\netcoreapp3.1\Arbitrage.AssemblyInfoInputs.cache
+D:\CS4050\Arbitrage\Arbitrage\obj\Debug\netcoreapp3.1\Arbitrage.AssemblyInfo.cs
+D:\CS4050\Arbitrage\Arbitrage\obj\Debug\netcoreapp3.1\Arbitrage.dll
+D:\CS4050\Arbitrage\Arbitrage\obj\Debug\netcoreapp3.1\Arbitrage.pdb
+D:\CS4050\Arbitrage\Arbitrage\obj\Debug\netcoreapp3.1\Arbitrage.genruntimeconfig.cache
