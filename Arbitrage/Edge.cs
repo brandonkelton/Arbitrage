@@ -19,6 +19,8 @@ namespace Arbitrage
             SourceNode = sourceNode;
             DestinationNode = destinationNode;
             Rate = rate;
+            // Finding the shortest path, so make the more
+            // desired larger rates small, and less desired smaller rates large
             Weight = -1 * Math.Log(rate);
         }
     }

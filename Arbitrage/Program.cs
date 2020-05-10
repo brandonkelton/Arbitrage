@@ -57,13 +57,13 @@ namespace Arbitrage
                 edges.Add(reverseEdge);
             }
 
-            return (nodes.ToArray(), edges.OrderBy(e => e.SourceNode.Name).ToArray());
+            return (nodes.ToArray(), edges.ToArray());
         }
 
         private static void ShowNodes(Node[] nodes)
         {
             Console.WriteLine();
-            foreach (var node in nodes)
+            foreach (var node in nodes.OrderBy(n => n.Name).ToArray())
             {
                 Console.WriteLine($"{node.Name}");
             }
@@ -73,7 +73,7 @@ namespace Arbitrage
         private static void ShowEdges(Edge[] edges)
         {
             Console.WriteLine();
-            foreach (var edge in edges)
+            foreach (var edge in edges.OrderBy(e => e.SourceNode.Name).ToArray())
             {
                 Console.WriteLine($"{edge.SourceNode.Name} ==> {edge.DestinationNode.Name}: {edge.Rate}");
             }
