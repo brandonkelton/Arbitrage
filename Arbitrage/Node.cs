@@ -9,9 +9,11 @@ namespace Arbitrage
     {
         public string Name { get; private set; }
 
+        public List<Edge> Edges { get; private set; } = new List<Edge>();
+
         public double Distance { get; set; } = double.PositiveInfinity;
 
-        public Node OptimalPathPreviousNode { get; set; }
+        public Node OptimalPreviousNode { get; set; }
 
         public Node(string name)
         {
