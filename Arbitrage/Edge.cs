@@ -6,14 +6,20 @@ namespace Arbitrage
 {
     public class Edge
     {
-        public double Rate { get; private set; }
+        public Node SourceNode { get; private set; }
 
         public Node DestinationNode { get; private set; }
 
-        public Edge(double rate, Node destinationNode)
+        public double Rate { get; private set; }
+
+        public double Weight { get; private set; }
+
+        public Edge(Node sourceNode, Node destinationNode, double rate)
         {
-            Rate = rate;
+            SourceNode = sourceNode;
             DestinationNode = destinationNode;
+            Rate = rate;
+            Weight = -1 * Math.Log(rate);
         }
     }
 }

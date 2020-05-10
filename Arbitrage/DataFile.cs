@@ -17,11 +17,11 @@ namespace Arbitrage
             this.fileName = fileName;
         }
 
-        public async Task LoadFile()
+        public void LoadFile()
         {
             Entries.Clear();
 
-            var lines = await File.ReadAllLinesAsync(fileName);
+            var lines = File.ReadAllLines(fileName);
             var lineEnumerator = lines.GetEnumerator();
             var isReading = false;
 
